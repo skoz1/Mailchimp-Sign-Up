@@ -7,8 +7,15 @@
                                                                                                                         
                                                                                                                         html {
                                                                                                                             border-left: 8px solid rgb(255, 225, 0);
-                                                                                                                            border-right: 260px solid rgb(255, 225, 0);
-                                                                                                                            height: 100vh;
+                                                                                                                            height: 100%;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        body {
+                                                                                                                            background-image: url(images/floral-2029335_1280.png);
+                                                                                                                            background-repeat: no-repeat;
+                                                                                                                            background-size: auto 55rem;
+                                                                                                                            background-position: 70rem 1rem;
+                                                                                                                            background-origin: border-box;
                                                                                                                         }
                                                                                                                         
                                                                                                                         #chimp-img {
@@ -16,19 +23,8 @@
                                                                                                                             width: 2.5rem;
                                                                                                                             padding: 1%;
                                                                                                                         }
-                                                                                                                        
-                                                                                                                        #floral-img {
-                                                                                                                            position: absolute;
-                                                                                                                            left: 75%;
-                                                                                                                            bottom: -50%;
-                                                                                                                        }
-                                                                                                                        
-                                                                                                                        #floral-size {
-                                                                                                                            height: auto;
-                                                                                                                            width: 150%;
-                                                                                                                        }
                                                                                                                         /*---------------MAIN-SECT-SIGN-IN-------------------*/
                                                                                                                         
                                                                                                                         main {
-                                                                                                                            margin: 5em 20em 5em 15em;
+                                                                                                                            margin: 4rem 40rem 5rem 15rem;
                                                                                                                         }
