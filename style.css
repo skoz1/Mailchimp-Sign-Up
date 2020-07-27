@@ -1,11 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=PT+Serif&family=Roboto+Slab:wght@100;300&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-image: url("images/flower-pot.jpg");
-    background-repeat: no-repeat;
-    background-color: yellow;
-}
+                                                                                                                        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=PT+Serif&family=Roboto+Slab:wght@100;300&display=swap');
+                                                                                                                        * {
+                                                                                                                            margin: 0;
+                                                                                                                            padding: 0;
+                                                                                                                        }
+                                                                                                                        /*---------------MAIN-SECT-IMG-------------------*/
+                                                                                                                        
+                                                                                                                        html {
+                                                                                                                            border-left: 8px solid rgb(255, 225, 0);
+                                                                                                                            border-right: 260px solid rgb(255, 225, 0);
+                                                                                                                            height: 100vh;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #chimp-img {
+                                                                                                                            height: 2.5rem;
+                                                                                                                            width: 2.5rem;
+                                                                                                                            padding: 1%;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #floral-img {
+                                                                                                                            position: absolute;
+                                                                                                                            left: 75%;
+                                                                                                                            bottom: -50%;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #floral-size {
+                                                                                                                            height: auto;
+                                                                                                                            width: 150%;
+                                                                                                                        }
+                                                                                                                        /*---------------MAIN-SECT-SIGN-IN-------------------*/
+                                                                                                                        
+                                                                                                                        main {
+                                                                                                                            margin: 5em 20em 5em 15em;
+                                                                                                                        }
