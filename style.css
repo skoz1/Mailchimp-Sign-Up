@@ -1,41 +1,79 @@
-                                                                                                                            @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=PT+Serif&family=Roboto+Slab:wght@100;300&display=swap');
-                                                                                                                            * {
-                                                                                                                                margin: 0;
-                                                                                                                                padding: 0;
-                                                                                                                            }
-                                                                                                                            /*---------------MAIN-SECT-IMG-------------------*/
-                                                                                                                            
-                                                                                                                            html {
-                                                                                                                                border-left: 8px solid rgb(255, 225, 0);
-                                                                                                                            }
-                                                                                                                            
-                                                                                                                            body {
-                                                                                                                                display: flex;
-                                                                                                                            }
-                                                                                                                            
-                                                                                                                            #chimp-img {
-                                                                                                                                height: 2.5rem;
-                                                                                                                                width: 2.5rem;
-                                                                                                                                padding: 1%;
-                                                                                                                            }
-                                                                                                                            /*---------------MAIN-SECT-SIGN-IN-------------------*/
-                                                                                                                            
-                                                                                                                            main {
-                                                                                                                                margin: 10rem 10rem 10rem 20rem;
-                                                                                                                            }
-                                                                                                                            
-                                                                                                                            h1 {
-                                                                                                                                font-family: 'Merriweather';
-                                                                                                                            }
-                                                                                                                            /*---------------FLEX-IMG-SECTION-------------------*/
-                                                                                                                            
-                                                                                                                            #background {
-                                                                                                                                overflow: hidden;
-                                                                                                                                background: linear-gradient(to left, rgb(255, 225, 0)45%, white 0, white 100%);
-                                                                                                                            }
-                                                                                                                            
-                                                                                                                            #background-img-container {
-                                                                                                                                position: relative;
-                                                                                                                                top: 22rem;
-                                                                                                                                margin: -20rem 0;
-                                                                                                                            }
+                                                                                                                                            @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=PT+Serif&family=Roboto+Slab:wght@100;300;400&family=Roboto:wght@100;300;400&display=swap');
+                                                                                                                                            * {
+                                                                                                                                                margin: 0;
+                                                                                                                                                padding: 0;
+                                                                                                                                            }
+                                                                                                                                            /*---------------MAIN-SECT-IMG-------------------*/
+                                                                                                                                            
+                                                                                                                                            html {
+                                                                                                                                                border-left: 8px solid rgb(255, 225, 0);
+                                                                                                                                            }
+                                                                                                                                            
+                                                                                                                                            body {
+                                                                                                                                                display: flex;
+                                                                                                                                            }
+                                                                                                                                            
+                                                                                                                                            #chimp-img {
+                                                                                                                                                height: 2.5rem;
+                                                                                                                                                width: 2.5rem;
+                                                                                                                                                padding: 1%;
+                                                                                                                                            }
+                                                                                                                                            /*---------------MAIN-SECT-SIGN-IN-------------------*/
+                                                                                                                                            
+                                                                                                                                            main {
+                                                                                                                                                margin: 4rem 9rem 10rem 15rem;
+                                                                                                                                            }
+                                                                                                                                            
+                                                                                                                                            h1 {
+                                                                                                                                                font-family: 'Roboto Slab';
+                                                                                                                                                font-weight: 300;
+                                                                                                                                                font-size: 45px;
+                                                                                                                                            }
+                                                                                                                                            
+                                                                                                                                            p {
+                                                                                                                                                font-family: 'Roboto';
+                                                                                                                                                font-size: 17px;
+                                                                                                                                                padding: 1rem 0;
+                                                                                                                                                line-height: 1.5rem;
+                                                                                                                                                font-weight: 300;
+                                                                                                                                            }
+                                                                                                                                            
+                                                                                                                                            #login-link {
+                                                                                                                                                color: rgb(8, 112, 157);
+                                                                                                                                                text-decoration: none;
+                                                                                                                                            }
+                                                                                                                                            
+                                                                                                                                            form {
+                                                                                                                                                display: flex;
+                                                                                                                                                flex-direction: column;
+                                                                                                                                            }
+                                                                                                                                            
+                                                                                                                                            label {
+                                                                                                                                                font-family: 'Roboto';
+                                                                                                                                                font-size: 17px;
+                                                                                                                                                font-weight: 400;
+                                                                                                                                                padding: .5rem 0 1rem 0;
+                                                                                                                                            }
+                                                                                                                                            
+                                                                                                                                            input {
+                                                                                                                                                height: 3rem;
+                                                                                                                                                border: 1px solid rgb(214, 210, 210);
+                                                                                                                                                border-radius: 2px;
+                                                                                                                                                font-family: 'Roboto';
+                                                                                                                                                font-size: 17px;
+                                                                                                                                                font-weight: 300;
+                                                                                                                                                padding: 0 1rem;
+                                                                                                                                            }
+                                                                                                                                            /*---------------FLEX-IMG-SECTION-------------------*/
+                                                                                                                                            
+                                                                                                                                            #background {
+                                                                                                                                                overflow: hidden;
+                                                                                                                                                background: linear-gradient(to left, rgb(255, 225, 0)45%, white 0, white 100%);
+                                                                                                                                            }
+                                                                                                                                            
+                                                                                                                                            #background-img-container {
+                                                                                                                                                position: relative;
+                                                                                                                                                top: 20rem;
+                                                                                                                                                left: 6rem;
+                                                                                                                                                margin: -15rem 0;
+                                                                                                                                            }
