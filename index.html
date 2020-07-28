@@ -28,12 +28,10 @@
                 <label for="email">Email</label>
                 <input name="email" type="email" value="">
                 <label for="username">Username</label>
-                <input name="username" type="text" value="">
-                <ion-icon name="eye-outline"></ion-icon>
-                Show
-                <label for="password">Password</label>
+                <input id="user-space" name="username" type="text" value="">
+                <label for="password">Password <span id="show"><ion-icon id="eye-icon" name="eye-outline"></ion-icon>
+                    Show</span> </label>
                 <input name="password" type="password" value="">
-
             </form>
             <ul>
                 <li>One lowercase character</li>
@@ -42,15 +40,17 @@
                 <li>One special character</li>
                 <li>8 characters minimum</li>
             </ul>
-
-            <button>
-            Sign Up
-        </button>
-
-            <div>
-                <label for="checkbox"></label>
-                <input type="checkbox" name="checkbox" value="">
-                <p>I don't want to recieve emails about new Mailchimp products, best practices, or special offers</p>
+            <div id="sign-up-sect">
+                <div>
+                    <button type="button" disabled>
+                    Sign Up
+                    </button>
+                </div>
+                <div id="checkbox-sect">
+                    <label for="checkbox"></label>
+                    <input type="checkbox" name="checkbox" value="">
+                    <p>I don't want to recieve emails about new Mailchimp products, best practices, or special offers.</p>
+                </div>
             </div>
             By clicking the "Sign Up" button, you are creating a Mailchimp account, and you agree to Mailchimp's
             <a href="https://mailchimp.com/legal/terms/?_ga=2.103336259.29438284.1595701501-1547651414.1595181587">Terms of Use </a> and
@@ -61,7 +61,6 @@
             <div> &#169;2001–2020 All Rights Reserved. Mailchimp&#174; is a registered trademark of The Rocket Science Group.</div>
             <div>
                 <a href="#">Cookie Preferences</a>, <a href="https://mailchimp.com/legal/privacy/?_ga=2.131337676.29438284.1595701501-1547651414.1595181587">Privacy</a>, and <a href="https://mailchimp.com/legal/?_ga=2.131337676.29438284.1595701501-1547651414.1595181587">Terms</a>.
-
             </div>
         </footer>
     </div>
