@@ -1,181 +1,230 @@
-    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=PT+Serif&family=Roboto+Slab:wght@100;300;400&family=Roboto:wght@100;300;400&display=swap');
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    /*teal:rgb(8, 112, 157);*/
-    /*---------------MAIN-SECT-IMG-------------------*/
-    
-    html {
-        border-left: 8px solid rgb(255, 225, 0);
-    }
-    
-    body {
-        display: flex;
-        font-family: 'Roboto';
-        font-weight: 300;
-        font-size: 15px;
-    }
-    
-    #chimp-img {
-        height: 2.5rem;
-        width: 2.5rem;
-        padding: 1%;
-    }
-    /*---------------MAIN-SECT-SIGN-IN-------------------*/
-    
-    main {
-        margin: 4rem 9rem 6rem 14rem;
-    }
-    
-    h1 {
-        font-family: 'Roboto Slab';
-        font-weight: 300;
-        font-size: 45px;
-    }
-    
-    p {
-        font-family: 'Roboto';
-        font-size: 17px;
-        padding: 1rem 0;
-        line-height: 1.5rem;
-        font-weight: 300;
-    }
-    
-    #login-link {
-        color: rgb(8, 112, 157);
-        text-decoration: none;
-    }
-    
-    form {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    label {
-        font-family: 'Roboto';
-        font-size: 17px;
-        font-weight: 400;
-        padding: 1rem 0 .5rem 0;
-    }
-    
-    input {
-        height: 3rem;
-        border: 1px solid rgb(214, 210, 210);
-        border-radius: 3px;
-        font-family: 'Roboto';
-        font-size: 17px;
-        font-weight: 300;
-        padding: 0 1rem;
-        outline: none;
-    }
-    
-    input:focus {
-        border: 2px solid rgb(8, 112, 157);
-    }
-    
-    #user-space {
-        margin-bottom: 1rem;
-    }
-    
-    #show {
-        float: right;
-        color: rgb(8, 112, 157);
-    }
-    
-    #show:hover {
-        color: rgb(7, 78, 109);
-    }
-    
-    #eye-icon {
-        position: relative;
-        top: .2rem;
-        font-size: 1.2rem;
-        padding-right: .5rem;
-    }
-    
-    ul {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        font-family: 'Roboto';
-        font-weight: 300;
-        font-size: 15px;
-        line-height: 1rem;
-        margin: 1rem 1rem 1rem 1rem;
-        list-style: none;
-    }
-    
-    ul li::before {
-        position: relative;
-        top: .4rem;
-        right: .9rem;
-        content: "\2022";
-        font-weight: bold;
-        color: rgb(8, 112, 157);
-        display: inline-block;
-        font-size: 2rem;
-    }
-    
-    #sign-up-sect {
-        display: grid;
-        grid-template-columns: 30% 70%;
-        margin-bottom: 1rem;
-    }
-    
-    main>a {
-        color: rgb(8, 112, 157);
-        line-height: 2rem;
-    }
-    
-    #checkbox-sect {
-        display: flex;
-        margin: 0 1rem;
-    }
-    
-    #checkbox-sect>p {
-        font-size: 15px;
-    }
-    
-    #checkbox-sect>input {
-        margin: 0 1rem;
-        position: relative;
-        top: .2rem;
-    }
-    
-    button {
-        margin: 1.5rem 0;
-        padding: .8rem 2.5rem;
-        font-size: 16px;
-        font-weight: 600;
-        text-align: center;
-        word-wrap: none;
-        color: rgb(194, 194, 194);
-        background-color: white;
-        border: 1px solid rgb(194, 194, 194);
-        border-radius: 5px;
-    }
-    /*---------------------FOOTER-----------------------*/
-    
-    footer {
-        color: grey;
-        font-size: 12px;
-        margin: 1rem;
-        line-height: 1rem;
-    }
-    
-    footer>div>a {
-        color: grey;
-    }
-    /*---------------FLEX-IMG-SECTION-------------------*/
-    
-    #background {
-        overflow: hidden;
-        background: linear-gradient(to left, rgb(255, 225, 0)45%, white 0, white 100%);
-    }
-    
-    #background-img-container {
-        position: relative;
-        top: 20rem;
-        left: 6rem;
-        margin: -15rem 0;
-    }
+            @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=PT+Serif&family=Roboto+Slab:wght@100;300;400&family=Roboto:wght@100;300;400&display=swap');
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            /*teal:rgb(8, 112, 157);*/
+            /*---------------MAIN-SECT-IMG-------------------*/
+            
+            html {
+                border-left: 8px solid rgb(255, 225, 0);
+            }
+            
+            body {
+                display: flex;
+                font-family: 'Roboto';
+                font-weight: 300;
+                font-size: 15px;
+            }
+            
+            #chimp-img {
+                height: 2.5rem;
+                width: 2.5rem;
+                padding: 1%;
+            }
+            /*---------------MAIN-SECT-SIGN-IN-------------------*/
+            
+            main {
+                margin: 4rem 9rem 6rem 14rem;
+            }
+            
+            h1 {
+                font-family: 'Roboto Slab';
+                font-weight: 300;
+                font-size: 45px;
+            }
+            
+            p {
+                font-family: 'Roboto';
+                font-size: 17px;
+                padding: 1rem 0;
+                line-height: 1.5rem;
+                font-weight: 300;
+            }
+            
+            #login-link {
+                color: rgb(8, 112, 157);
+                text-decoration: none;
+            }
+            
+            form {
+                display: flex;
+                flex-direction: column;
+            }
+            
+            label {
+                font-family: 'Roboto';
+                font-size: 17px;
+                font-weight: 400;
+                padding: 1rem 0 .5rem 0;
+            }
+            
+            input {
+                height: 3rem;
+                border: 1px solid rgb(214, 210, 210);
+                border-radius: 3px;
+                font-family: 'Roboto';
+                font-size: 17px;
+                font-weight: 300;
+                padding: 0 1rem;
+                outline: none;
+            }
+            
+            input:focus {
+                border: 2px solid rgb(8, 112, 157);
+            }
+            
+            #user-space {
+                margin-bottom: 1rem;
+            }
+            
+            #show {
+                float: right;
+                color: rgb(8, 112, 157);
+            }
+            
+            #show:hover {
+                color: rgb(7, 78, 109);
+            }
+            
+            #eye-icon {
+                position: relative;
+                top: .2rem;
+                font-size: 1.2rem;
+                padding-right: .5rem;
+            }
+            
+            ul {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                font-family: 'Roboto';
+                font-weight: 300;
+                font-size: 15px;
+                line-height: 1rem;
+                margin: 1rem 1rem 1rem 1rem;
+                list-style: none;
+            }
+            
+            ul li::before {
+                position: relative;
+                top: .4rem;
+                right: .9rem;
+                content: "\2022";
+                font-weight: bold;
+                color: rgb(8, 112, 157);
+                display: inline-block;
+                font-size: 2rem;
+            }
+            
+            #sign-up-sect {
+                display: grid;
+                grid-template-columns: 30% 70%;
+                margin-bottom: 1rem;
+            }
+            
+            main>a {
+                color: rgb(8, 112, 157);
+                line-height: 2rem;
+            }
+            /*CHECKMARK*/
+            
+            #checkbox-sect {
+                display: flex;
+                margin: 0 1rem;
+                position: relative;
+            }
+            
+            #main {
+                display: block;
+                position: relative;
+                padding-left: 2rem;
+                cursor: pointer;
+                font-size: 20px;
+            }
+            
+            input[type="checkbox"] {
+                display: none;
+            }
+            
+            #check {
+                position: absolute;
+                top: 1.4rem;
+                right: 1rem;
+                height: 25px;
+                width: 25px;
+                border: 1px solid rgb(194, 194, 194);
+                border-radius: 3px;
+            }
+            
+            #main input:active~#check {
+                border: 2px solidrgb(8, 112, 157);
+            }
+            
+            #main input:checked~#check {
+                background-color: rgb(8, 112, 157);
+            }
+            
+            #check:after {
+                content: "";
+                position: absolute;
+                display: none;
+            }
+            
+            #main input:checked~#check:after {
+                display: block;
+            }
+            
+            #main #check:after {
+                left: 8px;
+                bottom: 7px;
+                width: 6px;
+                height: 12px;
+                border: solid white;
+                border-width: 0 2px 2px 0;
+                -webkit-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+            }
+            
+            #checkbox-sect>p {
+                font-size: 15px;
+            }
+            /*-------------------*/
+            
+            button {
+                margin: 1.5rem 0;
+                padding: .8rem 2.5rem;
+                font-size: 16px;
+                font-weight: 600;
+                text-align: center;
+                word-wrap: none;
+                color: rgb(194, 194, 194);
+                background-color: white;
+                border: 1px solid rgb(194, 194, 194);
+                border-radius: 5px;
+            }
+            /*---------------------FOOTER-----------------------*/
+            
+            footer {
+                color: grey;
+                font-size: 12px;
+                margin: 1rem;
+                line-height: 1rem;
+            }
+            
+            footer>div>a {
+                color: grey;
+            }
+            /*---------------FLEX-IMG-SECTION-------------------*/
+            
+            #background {
+                overflow: hidden;
+                background: linear-gradient(to left, rgb(255, 225, 0)45%, white 0, white 100%);
+            }
+            
+            #background-img-container {
+                position: relative;
+                top: 20rem;
+                left: 6rem;
+                margin: -15rem 0;
+            }
